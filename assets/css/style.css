@@ -1,6 +1,7 @@
-body{
-    /*background-image: url('/assets/css/pexels-kubiceknov-924824.jpg');*/
-    background-color: #181920ee;
+body {
+    /* background-image: url('/assets/css/pexels-kubiceknov-924824.jpg'); */
+    background-color: #0a0a0aee;
+}
 
 /* The sidebar menu */
 .sidenav {
@@ -10,44 +11,59 @@ body{
     top: 0;
     left: 0;
     background-color: #12131ae1;
-    color:white;
+    color: white;
+}
 
-    p{
-        margin: 0px 0px -5px;
-    }
-  }
-  .side{
-   justify-content: space-between;
-   padding: 15px;
-   display: flex;
-   color: rgb(255, 255, 255);
-  }
+.sidenav p {
+    margin: 0px 0px -5px;
+}
 
-  .main {
+.side {
+    justify-content: space-between;
+    padding: 15px;
+    display: flex;
+    color: rgb(255, 255, 255);
+}
+
+.main {
     margin-left: 180px;
     padding: 0% 8%;
     color: rgb(255, 255, 255);
-  }
+}
 
-  .grid-container {
+.grid-container {
     display: grid;
     grid-template-columns: auto auto auto;
     gap: 10px;
-    background-color: #90b1cc00;
-    
-  }
+    background-color: #2c313500;
+}
 
-  .grid-container > div {
+.grid-container > div {
     background-color: rgba(0, 0, 0, 0);
     padding: 0px 0;
-    font-size: 30px;
-  }
+    font-size: 50px;
+}
 
-  .top-right {
+.top-left {
     position: absolute;
     top: 8px;
-    right: 1300px;
+    left: 350px;
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 780px;
+    left: 350px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
   }
 
-
-}
+  .flex-container > div {
+    text-align: center;
+    width: 500px;
+    line-height: 50px;
+    font-size: 20px;
+  }
