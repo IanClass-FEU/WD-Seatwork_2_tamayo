@@ -10,8 +10,11 @@ body{
     top: 0;
     left: 0;
     background-color: #12131a9f;
-    color:white
+    color:white;
 
+    p{
+        margin: 0px 0px -5px;
+    }
   }
   .side{
    justify-content: space-between;
@@ -19,6 +22,7 @@ body{
    display: flex;
    color: rgb(255, 255, 255);
   }
+
   .main {
     margin-left: 160px;
     padding: 0% 13%;
