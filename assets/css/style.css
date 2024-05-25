@@ -1,5 +1,5 @@
 body{
-    /* background-image: url('/assets/css/pexels-kubiceknov-924824.jpg'); */
+    /*background-image: url('/assets/css/pexels-kubiceknov-924824.jpg');*/
     background-color: #181920ee;
 
 /* The sidebar menu */
@@ -9,7 +9,7 @@ body{
     position: fixed;
     top: 0;
     left: 0;
-    background-color: #12131a9f;
+    background-color: #12131ae1;
     color:white;
 
     p{
@@ -28,12 +28,26 @@ body{
     padding: 0% 8%;
     color: rgb(255, 255, 255);
   }
-  .containerA{
-  height: 100;
-  width: 95%;
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    background-color: #90b1cc00;
+    
   }
 
+  .grid-container > div {
+    background-color: rgba(0, 0, 0, 0);
+    padding: 0px 0;
+    font-size: 30px;
+  }
 
+  .top-right {
+    position: absolute;
+    top: 8px;
+    right: 1300px;
+  }
 
 
 }
