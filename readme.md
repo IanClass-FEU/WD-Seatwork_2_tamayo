@@ -8,7 +8,7 @@
 <div align="center">
   <a href="https://github.com/IanClass-FEU/">
   <!-- Logo or Image -->
-    <img src="" alt="" width="130" height="100">
+    <img src="12305-raised-hand.png" alt="kamay" width="130" height="100">
   </a>
 
   <h3 align="center">Title</h3>
@@ -20,7 +20,7 @@
 <br />
 
 ## Waka time stats
-![WakaTime stats](https://github-readme-stats.vercel.app/api/wakatime?username=IanClass-FEU)
+![WakaTime stats](https://github-readme-stats.vercel.app/api/wakatime?username=IanTamayo)
 
 
 ![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/Github-Git-Guide)
