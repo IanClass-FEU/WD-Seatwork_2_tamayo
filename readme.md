@@ -11,10 +11,10 @@
     <img src="assets\readme assets\12305-raised-hand.png" alt="kamay" width="130" height="100">
   </a>
 
-  <h3 align="center">Title</h3>
+  <h3 align="center">Apir Tayo</h3>
 </div>
 <div align="center">
-  Description. (Optional)
+  Resume
 </div>
 
 <br />
