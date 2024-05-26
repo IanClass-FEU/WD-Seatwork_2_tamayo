@@ -35,7 +35,7 @@ body {
     display: grid;
     grid-template-columns: auto auto auto;
     gap: 10px;
-    background-color: #bad6ee;
+    background-color: #bad6ee00;
 }
 
 .grid-container > div {
@@ -59,11 +59,37 @@ body {
 .flex-container {
     display: flex;
     justify-content: space-between;
-  }
+}
 
-  .flex-container > div {
+.flex-container > div {
     text-align: center;
     width: 500px;
     line-height: 50px;
     font-size: 20px;
-  }
+}
+
+.work {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    padding: 10px;
+}
+
+.work-item {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.work .title {
+    font-weight: bold;
+}
+
+.work .subtext {
+    font-size: 18px;
+    color: #aaa;
+    margin-top: 5px;
+}
