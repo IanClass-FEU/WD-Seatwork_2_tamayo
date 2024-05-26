@@ -23,7 +23,7 @@
 ![WakaTime stats](https://github-readme-stats.vercel.app/api/wakatime?username=IanTamayo)
 
 
-![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/Github-Git-Guide)
+![](https://visit-counter.vercel.app/counter.png?page=IanClass-FEU/WD-Seatwork_2_tamayo)
 
 ---
 
